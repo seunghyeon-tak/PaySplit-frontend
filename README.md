@@ -20,7 +20,17 @@ npm run dev
 
 ## 프로젝트 구조
 
-작성 예정
+```
+src/
+├── assets/          # 이미지, 폰트 등
+├── components/      # 재사용 가능한 UI 조각들
+├── pages/           # 화면 단위 컴포넌트
+├── hooks/           # 커스텀 훅
+├── services/        # API 호출 관련
+├── types/           # TypeScript 타입 정의
+├── utils/           # 공통 유틸 함수
+└── styles/          # 전역 스타일
+```
 
 ## 주요 기능
 
